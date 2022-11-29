@@ -1,0 +1,36 @@
+.contenedor-destino {
+  width: 1170px;
+  height: 368px;
+  margin: 10px 10px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 /8%);
+}
+
+.imagen-destino {
+  height: 100%;
+  width: auto;
+}
+
+.contedor-destino-descripcion {
+  text-align: center;
+  padding: 40px;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.contedor-destino-descripcion {
+  font-size: 1.3rem;
+}
+
+.nombre-destino {
+  font-weight: bold;
+}
+
+.nombre-detalle {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
