@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/Destino.css";
 
-function Destinos(props) {
+function ItemListContainer (props) {
   return (
     <div className="contenedor-destino">
       <img
@@ -17,4 +17,4 @@ function Destinos(props) {
   );
 }
 
-export default Destinos;
+export default ItemListContainer;

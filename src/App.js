@@ -3,7 +3,7 @@ import "./App.css";
 import Destinos from "./components/Main";
 import NavBar from "./components/NavBar/Navbar";
 import React from "react";
-
+import ItemListContainer from "./components/Main";
 
 function App() {
   return (
@@ -12,42 +12,41 @@ function App() {
         <h1>VIAJA SEGURO CON NOSOTROS!!</h1>
       </div>
       <React.Fragment>
-      <NavBar />
-
+        <NavBar />
       </React.Fragment>
-      <Destinos
+      <ItemListContainer
         nombre="BRASIL"
         detalle="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups"
         imagen="brasil"
       />
 
-      <Destinos
+      <ItemListContainer
         nombre="CARIBE"
         detalle="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups"
         imagen="caribe"
       />
 
-      <Destinos
+      <ItemListContainer
         nombre="ESPAÑA"
         detalle="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups"
         imagen="españa"
       />
-      <Destinos
+      <ItemListContainer
         nombre="FRANCIA"
         detalle="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups"
         imagen="francia"
       />
-      <Destinos
+      <ItemListContainer
         nombre="IRLANDA"
         detalle="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups"
         imagen="irlanda"
       />
-      <Destinos
+      <ItemListContainer
         nombre="ISLANDIA"
         detalle="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups"
         imagen="islandia"
       />
-      <Destinos
+      <ItemListContainer
         nombre="TULUM"
         detalle="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups"
         imagen="tulum"
