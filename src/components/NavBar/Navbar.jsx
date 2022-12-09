@@ -6,21 +6,14 @@ function Navbar() {
     <div className="contenedor-nav">
       <nav className="nav">
         <div>
-          <a href="/#">Inicio</a>
-        </div>
         <ul className="nav_list">
-          <li>
-            <a className="nav_link" href="/#">
-              Mas Destinos!
-            </a>
-          </li>
-          <li>
-            <a className="nav_link" href="/#">
-              <CardWidget />
-            </a>
-          </li>
+        <li><Link className="link" to= {"/Inicio"}></Link></li>
+        <li><Link className="link" to= {"/Mas Destinos"}></Link></li>
+        <li><Link className="link" to= {"/Comentarios"}></Link></li>
         </ul>
-      </nav>
+        </div>
+        </nav>
+
     </div>
   );
 }

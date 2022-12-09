@@ -4,10 +4,19 @@ import Destinos from "./components/Main";
 import NavBar from "./components/NavBar/Navbar";
 import React from "react";
 import ItemListContainer from "./components/Main";
+import { BrowserRouter } from "react-router-dom";
+import { Route } from "react-router-dom";
+import { Container } from "./components/NavBar/Api/Api";
 
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route path={"/"} element ={<Container/>} />
+        </Routes>
+      </BrowserRouter>
+
       <div className="contenedor-titulo">
         <h1>VIAJA SEGURO CON NOSOTROS!!</h1>
       </div>
